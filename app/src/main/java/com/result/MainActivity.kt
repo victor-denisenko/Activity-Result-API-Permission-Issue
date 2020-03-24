@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
             textView.text = "Result is $result"
         }
 
+        /*
+        *   Expected: message "Result is {true/false}"
+        *   Actual: message "Wait for result.." 
+        */
         launcher.launch(android.Manifest.permission.CAMERA)
     }
 }
